@@ -1,0 +1,10 @@
+apigateway-Examen/
+Eureka-Server-Examen/
+Ordenes-Examen/
+Pagos-Examen/
+Productos-Examen/
+.mvn/
+target/
+*.jar
+.vscode/
+.idea/
