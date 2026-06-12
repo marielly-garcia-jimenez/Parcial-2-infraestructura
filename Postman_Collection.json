@@ -196,6 +196,49 @@
       ]
     },
     {
+      "name": "Envios Programados",
+      "item": [
+        {
+          "name": "Listar Envios",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/broker/envios",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "broker",
+                "envios"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "Consultar Envio por Orden",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{baseUrl}}/broker/envios/orden/ID_ORDEN",
+              "host": [
+                "{{baseUrl}}"
+              ],
+              "path": [
+                "broker",
+                "envios",
+                "orden",
+                "ID_ORDEN"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
       "name": "CloudWatch Logs (LocalStack)",
       "item": [
         {
